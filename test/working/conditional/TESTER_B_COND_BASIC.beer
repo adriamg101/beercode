@@ -1,0 +1,19 @@
+🍺 EJEMPLO B: CONDICIONAL SIMPLE EN MAIN
+
+
+entra bar aigua () 🤢
+    Camarero una canya de Turia gracias
+    Camarero una canya de EstrellaDamm gracias
+    Camarero una canya de Moritz gracias
+    Camarero una canya de Amstel gracias
+    Camarero una canya de SanMiguel gracias
+    Camarero refill de Turia 0 gracias
+
+    si Turia es igual 0 🤢
+        Camarero mezclame esto EstrellaDamm, Moritz, Amstel en SanMiguel lo siento
+    🤮
+
+    Camarero refill de Turia 3 gracias
+
+🤮
+

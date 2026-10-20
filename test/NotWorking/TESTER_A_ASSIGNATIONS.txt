@@ -1,0 +1,30 @@
+🍺 EJEMPLO  A: Incorrect assignations
+
+
+entra bar aigua () 🤢
+
+    🍺randomVarName no esta dentro de los nombres de variable aceptados
+    Camarero una canya de randomVarName gracias
+
+    🍺Las declaraciones se cierran con gracias
+    Camarero un cubo de 7 canya de Amstel lo siento
+
+    Camarero una canya de Turia gracias
+    🍺Las asignaciones se cierran con gracias
+    Camarero refill de Turia 12 que?
+
+    🍺variables repes
+    Camarero una canya de Corona gracias
+    Camarero una canya de Corona gracias
+
+    Camarero una canya de Alhambra gracias
+    Camarero una canya de Duvel gracias
+    Camarero refill de Alhambra 12 gracias
+    Camarero refill de Duvel 8 gracias
+    🍺En las restas y divisiones se cierra con que?
+    Camarero rebajame esto Alhambra,Duvel en Turia lo siento
+    Camarero separame  esto Alhambra,Duvel en Turia gracias
+    🍺En las sumas y multiplicaciones se cierra con lo siento
+    Camarero barrejame  esto Alhambra,Duvel en Turia que?
+    Camarero mezclame  esto Alhambra,Duvel en Turia gracias
+🤮

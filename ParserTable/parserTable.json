@@ -1,0 +1,229 @@
+{
+  "<CODE>": {
+    "FUNC": 0,
+    "MAIN": 0,
+    "OL": 0
+  },
+  "<FUNCTION>": {
+    "FUNC": 0,
+    "MAIN": 1,
+    "OL": 2
+  },
+  "<COND_OP’>": {
+    "C_EQUAL": 0,
+    "LT": 1,
+    "GT": 2
+  },
+  "<CHARACTER_CTE>": {
+    "CTE_CHARACTER": 0,
+    "CTE_STRING": 1
+  },
+  "<DECLARATION>": {
+    "A": 0
+  },
+  "<FUNCTION_CALL>": {
+    "FUNC_CALL": 0
+  },
+  "<PARAMETERS>": {
+    "FLOAT": 0,
+    "ARRAY": 0,
+    "BOOL": 0,
+    "CHAR": 0,
+    "DOUBLE": 0,
+    "VOID": 0,
+    "STRUCT": 0,
+    "CP": 1,
+    "INT": 0,
+    "LONG": 0
+  },
+  "<OP_ARGS>": {
+    "CTE_CHARACTER": 0,
+    "CTE_DECIMAL": 0,
+    "CTE_ENTER": 0,
+    "CTE_STRING": 0,
+    "ID": 0
+  },
+  "<VALUE_ARR>": {
+    "CTE_ENTER": 1
+  },
+  "<RETURN_FUNC>": {
+    "IN": 0,
+    "CL": 1,
+    "WITH": 1
+  },
+  "<OPERATION>": {
+    "ADD": 0,
+    "MULTIPLY": 0,
+    "SUBTRACT": 0,
+    "DIVIDE": 0
+  },
+  "<STRUCTURE_TYPE>": {
+    "FLOAT": 5,
+    "ARRAY": 1,
+    "BOOL": 2,
+    "CHAR": 3,
+    "DOUBLE": 6,
+    "STRUCT": 0,
+    "INT": 4,
+    "LONG": 7
+  },
+  "<COND_OP>": {
+    "NOT": 0,
+    "C_EQUAL": 1,
+    "LT": 1,
+    "GT": 1
+  },
+  "<RETURN’>": {
+    "CTE_CHARACTER": 0,
+    "CTE_DECIMAL": 0,
+    "CL": 1,
+    "CTE_ENTER": 0,
+    "CTE_STRING": 0,
+    "ID": 0
+  },
+  "<MAIN>": {
+    "MAIN": 0
+  },
+  "<CONDITION>": {
+    "NOT": 1,
+    "CTE_CHARACTER": 0,
+    "CTE_DECIMAL": 0,
+    "CTE_ENTER": 0,
+    "CTE_STRING": 0,
+    "ID": 0
+  },
+  "<RETURN>": {
+    "RETURN": 0
+  },
+  "<FUNC_ARGS>": {
+    "CL": 1,
+    "WITH": 0
+  },
+  "<FUNC_ARGS’>": {
+    "CL": 1,
+    "COMA": 0
+  },
+  "<NUMERIC_CTE>": {
+    "CTE_DECIMAL": 1,
+    "CTE_ENTER": 0
+  },
+  "<VARIABLE’>": {
+    "CC": 1,
+    "OR": 1,
+    "IN": 1,
+    "CTE_DECIMAL": 1,
+    "CL": 1,
+    "CTE_ENTER": 1,
+    "CTE_STRING": 1,
+    "IS": 1,
+    "CP": 1,
+    "WITH": 1,
+    "CTE_CHARACTER": 1,
+    "OB": 1,
+    "OC": 0,
+    "AND": 1,
+    "ID": 1,
+    "COMA": 1
+  },
+  "<VARIABLE>": {
+    "ID": 0
+  },
+  "<STRUCTURE_TYPE’>": {
+    "FLOAT": 3,
+    "BOOL": 0,
+    "CHAR": 1,
+    "DOUBLE": 4,
+    "INT": 2,
+    "LONG": 5
+  },
+  "<ASSIGNATION>": {
+    "REFILL": 0
+  },
+  "<TYPE>": {
+    "FLOAT": 1,
+    "ARRAY": 1,
+    "BOOL": 1,
+    "CHAR": 1,
+    "DOUBLE": 1,
+    "VOID": 0,
+    "STRUCT": 1,
+    "INT": 1,
+    "LONG": 1
+  },
+  "<LINE’>": {
+    "RETURN": 2,
+    "WHILE": 3,
+    "IF": 1,
+    "OL": 0,
+    "CB": 4
+  },
+  "<VALUE>": {
+    "CTE_CHARACTER": 1,
+    "CTE_DECIMAL": 1,
+    "CTE_ENTER": 1,
+    "CTE_STRING": 1,
+    "ID": 0
+  },
+  "<CODE’>": {
+    "$": 1,
+    "FUNC": 0,
+    "MAIN": 0,
+    "OL": 0
+  },
+  "<CONSTANTS>": {
+    "CTE_CHARACTER": 1,
+    "CTE_DECIMAL": 0,
+    "CTE_ENTER": 0,
+    "CTE_STRING": 1
+  },
+  "<PARAMETERS’>": {
+    "CP": 1,
+    "COMA": 0
+  },
+  "<COND_LOGIC>": {
+    "OR": 1,
+    "AND": 0
+  },
+  "<CONDITIONAL>": {
+    "IF": 0
+  },
+  "<OP_ARGS’>": {
+    "IN": 1,
+    "COMA": 0
+  },
+  "<OPERATIONAL>": {
+    "ADD": 0,
+    "MULTIPLY": 2,
+    "SUBTRACT": 1,
+    "DIVIDE": 3
+  },
+  "<CONDITION’>": {
+    "OR": 0,
+    "OB": 1,
+    "AND": 0
+  },
+  "<STATEMENT>": {
+    "A": 0,
+    "ADD": 2,
+    "FUNC_CALL": 3,
+    "MULTIPLY": 2,
+    "REFILL": 1,
+    "SUBTRACT": 2,
+    "DIVIDE": 2
+  },
+  "<LINE>": {
+    "RETURN": 2,
+    "WHILE": 3,
+    "OL": 0,
+    "IF": 1,
+    "CB": 4
+  },
+  "<CONDITIONAL’>": {
+    "RETURN": 1,
+    "ELSE": 0,
+    "WHILE": 1,
+    "OL": 1,
+    "IF": 1,
+    "CB": 1
+  }
+}

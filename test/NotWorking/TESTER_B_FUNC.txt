@@ -1,0 +1,48 @@
+🍺 EJEMPLO  B: Incorrect function call
+
+pedido BarManolo de aigua (canya Amstel) 🤢
+
+🤮
+
+🍺Si no es aigua se necesita un return.
+pedido MariscosRecio de canya (canya Amstel) 🤢
+
+🤮
+
+pedido TheDrunkenClam de canya () 🤢
+     Camarero una quinto de Amstel gracias
+
+     Camarero refill de Amstel 2 gracias
+
+    🍺La variable retornada ha de coincidir con el tipo esperado
+     ya sabes Amstel gracias
+🤮
+
+entra bar aigua () 🤢
+    Camarero una canya de Turia gracias
+    Camarero una canya de Amstel gracias
+    Camarero una canya de Sapporo gracias
+
+    🍺las llamadas a funciones han de acabar con gracias.
+    Camarero sirveme MariscosRecio en Turia con Amstel lo siento
+    🍺las llamadas a funciones con argumnetos han de proporcionar estos argumentos
+    Camarero sirveme BarManolo gracias
+    🍺llamar a una funcion no definida
+    Camarero sirveme ElRinconcitiDeAlba gracias
+
+
+    Camarero sirveme TheDrunkenClam en Sapporo gracias
+🤮
+
+🍺randomFuncName no esta dentro de los nombres de funciones aceptados
+pedido randomFuncName de aigua () 🤢
+🤮
+
+🍺No ha de haber funciones redefinidas
+pedido ElCarlgolet de aigua () 🤢
+🤮
+pedido ElCarlgolet de aigua () 🤢
+🤮
+
+
+

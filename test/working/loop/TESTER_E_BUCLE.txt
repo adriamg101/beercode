@@ -1,0 +1,17 @@
+🍺 EJEMPLO C: CONDICIONAL SIMPLE + ELSE EN MAIN
+
+
+entra bar aigua () 🤢
+    Camarero una canya de Turia gracias
+    Camarero refill de Turia 0 gracias
+
+    apunta mentre Turia es igual 0 🤢
+        Camarero refill de Turia 1 gracias
+        Camarero refill de Turia 2 gracias
+    🤮
+
+    Camarero refill de Turia 3 gracias
+
+🤮
+
+

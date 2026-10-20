@@ -1,0 +1,166 @@
+{
+  "<CODE>": [
+    ["<FUNCTION>", "<CODE’>", "$"]
+  ],
+  "<CODE’>": [
+    ["<FUNCTION>", "<CODE’>"],
+    ["ε"]
+  ],
+  "<FUNCTION>": [
+    ["FUNC", "ID", "OF", "<TYPE>", "OP", "<PARAMETERS>", "CP", "OB", "<LINE>", "CB"],
+    ["<MAIN>"],
+    ["OL", "<DECLARATION>", "CL"]
+  ],
+  "<MAIN>": [
+    ["MAIN", "<TYPE>", "OP", "CP", "OB", "<LINE>", "CB"]
+  ],
+  "<LINE>": [
+    ["OL", "<STATEMENT>", "CL", "<LINE’>"],
+    ["<CONDITIONAL>", "<LINE’>"],
+    ["<RETURN>", "<LINE’>"],
+    ["WHILE", "<CONDITION>", "OB", "<LINE>", "CB", "<LINE’>"],
+    ["ε"]
+  ],
+  "<LINE’>": [
+    ["OL", "<STATEMENT>", "CL", "<LINE’>"],
+    ["<CONDITIONAL>", "<LINE’>"],
+    ["<RETURN>", "<LINE’>"],
+    ["WHILE", "<CONDITION>", "OB", "<LINE’>", "CB", "<LINE’>"],
+    ["ε"]
+  ],
+  "<STATEMENT>": [
+    ["<DECLARATION>"],
+    ["<ASSIGNATION>"],
+    ["<OPERATION>"],
+    ["<FUNCTION_CALL>"]
+  ],
+  "<DECLARATION>": [
+    ["A", "<STRUCTURE_TYPE>", "OF", "ID"]
+  ],
+  "<FUNCTION_CALL>": [
+    ["FUNC_CALL", "ID", "<RETURN_FUNC>", "<FUNC_ARGS>"]
+  ],
+  "<RETURN>": [
+    ["RETURN", "<RETURN’>", "CL"]
+  ],
+  "<RETURN’>": [
+    ["<VALUE>"],
+    ["ε"]
+  ],
+  "<RETURN_FUNC>": [
+    ["IN", "<VARIABLE>"],
+    ["ε"]
+  ],
+  "<PARAMETERS>": [
+    ["<TYPE>", "<VARIABLE>", "<PARAMETERS’>"],
+    ["ε"]
+  ],
+  "<PARAMETERS’>": [
+    ["COMA", "<TYPE>", "<VARIABLE>", "<PARAMETERS’>"],
+    ["ε"]
+  ],
+  "<FUNC_ARGS>": [
+    ["WITH", "<VALUE>", "<FUNC_ARGS’>"],
+    ["ε"]
+  ],
+  "<FUNC_ARGS’>": [
+    ["COMA", "<VALUE>", "<FUNC_ARGS’>"],
+    ["ε"]
+  ],
+  "<OPERATION>": [
+    ["<OPERATIONAL>", "THIS", "<OP_ARGS>", "IN", "<VARIABLE>"]
+  ],
+  "<OPERATIONAL>": [
+    ["ADD"],
+    ["SUBTRACT"],
+    ["MULTIPLY"],
+    ["DIVIDE"]
+  ],
+  "<OP_ARGS>": [
+    ["<VALUE>", "COMA", "<VALUE>", "<OP_ARGS’>"]
+  ],
+  "<OP_ARGS’>": [
+    ["COMA", "<VALUE>", "<OP_ARGS’>"],
+    ["ε"]
+  ],
+  "<CONDITIONAL>": [
+    ["IF", "<CONDITION>", "OB", "<LINE>", "CB", "<CONDITIONAL’>"]
+  ],
+  "<CONDITIONAL’>": [
+    ["ELSE", "OB", "<LINE>", "CB"],
+    ["ε"]
+  ],
+  "<CONDITION>": [
+    ["<VALUE>", "IS", "<COND_OP>", "<VALUE>", "<CONDITION’>"],
+    ["NOT", "<VALUE>", "<CONDITION’>"]
+  ],
+  "<CONDITION’>": [
+    ["<COND_LOGIC>", "<CONDITION>"],
+    ["ε"]
+  ],
+  "<COND_LOGIC>": [
+    ["AND"],
+    ["OR"]
+  ],
+  "<COND_OP>": [
+    ["NOT", "<COND_OP’>"],
+    ["<COND_OP’>"]
+  ],
+  "<COND_OP’>": [
+    ["C_EQUAL"],
+    ["LT"],
+    ["GT"]
+  ],
+  "<TYPE>": [
+    ["VOID"],
+    ["<STRUCTURE_TYPE>"]
+  ],
+  "<STRUCTURE_TYPE>": [
+    ["STRUCT"],
+    ["ARRAY", "OF", "CTE_ENTER", "<STRUCTURE_TYPE’>"],
+    ["BOOL"],
+    ["CHAR"],
+    ["INT"],
+    ["FLOAT"],
+    ["DOUBLE"],
+    ["LONG"]
+  ],
+  "<STRUCTURE_TYPE’>": [
+    ["BOOL"],
+    ["CHAR"],
+    ["INT"],
+    ["FLOAT"],
+    ["DOUBLE"],
+    ["LONG"]
+  ],
+  "<ASSIGNATION>": [
+    ["REFILL", "OF", "<VARIABLE>", "<VALUE>"]
+  ],
+  "<VALUE>": [
+    ["<VARIABLE>"],
+    ["<CONSTANTS>"]
+  ],
+  "<VALUE_ARR>": [
+    ["<VARIABLE>"],
+    ["CTE_ENTER"]
+  ],
+  "<VARIABLE>": [
+    ["ID", "<VARIABLE’>"]
+  ],
+  "<VARIABLE’>": [
+    ["OC", "<VALUE_ARR>", "CC"],
+    ["ε"]
+  ],
+  "<CONSTANTS>": [
+    ["<NUMERIC_CTE>"],
+    ["<CHARACTER_CTE>"]
+  ],
+  "<NUMERIC_CTE>": [
+    ["CTE_ENTER"],
+    ["CTE_DECIMAL"]
+  ],
+  "<CHARACTER_CTE>": [
+    ["CTE_CHARACTER"],
+    ["CTE_STRING"]
+  ]
+}

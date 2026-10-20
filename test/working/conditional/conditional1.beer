@@ -1,0 +1,32 @@
+
+entra bar aigua () 🤢
+    Camarero una canya de Turia gracias
+    Camarero una canya de EstrellaDamm gracias
+    Camarero una canya de Moritz gracias
+    Camarero una canya de Amstel gracias
+
+    Camarero refill de Turia 0 gracias
+    Camarero refill de EstrellaDamm 0 gracias
+    Camarero refill de Moritz 2 gracias
+    Camarero refill de Amstel 4 gracias
+
+    si Turia es igual 1 🤢
+        si EstrellaDamm es igual 0 🤢
+            si Moritz es igual 2 🤢
+                si Amstel es igual 4 🤢
+                    Camarero refill de Turia 1 gracias
+                🤮 sinó 🤢
+                    Camarero refill de Turia 2 gracias
+                🤮
+            🤮
+        🤮
+    🤮 sinó 🤢
+        si EstrellaDamm es igual 0 🤢
+            si Moritz es igual 2 🤢
+                Camarero refill de Turia 6 gracias
+            🤮
+        🤮
+    🤮
+
+🤮
+

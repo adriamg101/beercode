@@ -1,0 +1,156 @@
+{
+  "<CODE>": {
+    "first": ["FUNC", "MAIN", "A"],
+    "follow": ["$"]
+  },
+  "<CODE’>": {
+    "first": ["FUNC", "MAIN", "A", "ε"],
+    "follow": ["$"]
+  },
+  "<FUNCTION>": {
+      "first": ["FUNC", "MAIN", "A"],
+      "follow": ["$"]
+  },
+  "<MAIN>": {
+      "first": ["MAIN"],
+      "follow": ["$"]
+  },
+    "<LINE>": {
+        "first": ["OL", "IF", "RETURN", "WHILE", "ε"],
+        "follow": ["CB"]
+    },
+    "<LINE’>": {
+        "first": ["OL", "IF", "RETURN", "WHILE", "ε"],
+        "follow": ["CB"]
+    },
+    "<STATEMENT>": {
+        "first": ["A", "REFILL", "ADD", "SUBTRACT", "MULTIPLY", "DIVIDE", "FUNC_CALL"],
+        "follow": ["CL"]
+    },
+    "<DECLARATION>": {
+        "first": ["A"],
+        "follow": ["CL", "$"]
+    },
+    "<FUNCTION_CALL>": {
+        "first": ["FUNC_CALL"],
+        "follow": ["CL"]
+    },
+    "<RETURN>": {
+        "first": ["RETURN"],
+        "follow": ["OL, IF, RETURN, WHILE", "CB"]
+    },
+    "<RETURN’>": {
+        "first": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING", "ε"],
+        "follow": ["CL"]
+    },
+    "<RETURN_FUNC>": {
+        "first": ["IN", "ε"],
+        "follow": ["WITH", "CL"]
+    },
+    "<PARAMETERS>": {
+        "first": ["INT", "FLOAT", "DOUBLE", "LONG", "CHAR", "BOOL", "ARRAY", "STRUCT", "VOID"],
+        "follow": ["CP"]
+    },
+    "<PARAMETERS’>": {
+        "first": ["COMA", "ε"],
+        "follow": ["CP"]
+    },
+  "<FUNC_ARGS>": {
+    "first": ["WITH", "ε"],
+    "follow": ["CL"]
+  },
+  "<FUNC_ARGS’>": {
+    "first": ["COMA", "ε"],
+    "follow": ["CL"]
+  },
+  "<OPERATION>": {
+    "first": ["ADD", "SUBTRACT", "MULTIPLY", "DIVIDE"],
+    "follow": ["CL"]
+  },
+  "<OPERATIONAL>": {
+    "first": ["ADD", "SUBTRACT", "MULTIPLY", "DIVIDE"],
+    "follow": ["THIS"]
+  },
+  "<OP_ARGS>": {
+    "first": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING"],
+    "follow": ["IN"]
+  },
+  "<OP_ARGS’>": {
+    "first": ["COMA", "ε"],
+    "follow": ["IN"]
+  },
+  "<CONDITIONAL>": {
+    "first": ["IF"],
+    "follow": ["OL", "IF", "RETURN", "WHILE", "CB"]
+  },
+  "<CONDITIONAL’>": {
+    "first": ["ELSE", "ε"],
+    "follow": ["OL", "IF", "RETURN", "WHILE", "CB"]
+  },
+  "<CONDITION>": {
+    "first": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING", "NOT"],
+    "follow": ["OB"]
+  },
+  "<CONDITION’>": {
+    "first": ["AND", "OR", "ε"],
+    "follow": ["OB"]
+  },
+  "<COND_LOGIC>": {
+    "first": ["AND", "OR"],
+    "follow": ["CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING", "NOT"]
+  },
+  "<COND_OP>": {
+    "first": ["NOT", "C_EQUAL", "LT", "GT"],
+    "follow": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING"]
+  },
+  "<COND_OP’>": {
+    "first": ["C_EQUAL", "LT", "GT"],
+    "follow": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING"]
+  },
+  "<TYPE>": {
+    "first": ["VOID", "STRUCT", "ARRAY", "LONG", "DOUBLE", "FLOAT", "INT", "CHAR", "BOOL"],
+    "follow": ["OP", "ID"]
+  },
+  "<STRUCTURE_TYPE>": {
+    "first": ["LONG", "DOUBLE", "FLOAT", "INT", "CHAR", "BOOL"],
+    "follow": ["OP", "ID", "OF"]
+  },
+  "<STRUCTURE_TYPE’>": {
+    "first": ["STRUCT", "ARRAY", "LONG", "DOUBLE", "FLOAT", "INT", "CHAR", "BOOL"],
+    "follow": ["OP", "ID", "OF"]
+  },
+  "<ASSIGNATION>": {
+    "first": ["REFILL"],
+    "follow": ["CL"]
+  },
+  "<VALUE>": {
+    "first": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING"],
+    "follow": ["CL", "IS", "AND", "OR", "OB", "COMA", "WITH"]
+  },
+  "<VALUE_ARR>": {
+    "first": ["ID", "CTE_ENTER"],
+    "follow": ["CC"]
+  },
+  "<VARIABLE>": {
+    "first": ["ID"],
+    "follow": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING", "CC", "CL", "COMA", "WITH"]
+  },
+  "<VARIABLE’>": {
+    "first": ["OC", "ε"],
+    "follow": ["ID", "CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING", "CC", "CL", "COMA", "WITH"]
+  },
+  "<CONSTANTS>": {
+    "first": ["CTE_ENTER", "CTE_DECIMAL", "CTE_CHARACTER", "CTE_STRING"],
+    "follow": ["CL", "IS", "AND", "OR", "OB", "COMA", "WITH"]
+  },
+  "<NUMERIC_CTE>": {
+    "first": ["CTE_ENTER", "CTE_DECIMAL"],
+    "follow": ["CL", "IS", "AND", "OR", "OB", "COMA", "WITH"]
+  },
+  "<CHARACTER_CTE>": {
+    "first": ["CTE_CHARACTER", "CTE_STRING"],
+    "follow": ["CL", "IS", "AND", "OR", "OB", "COMA", "WITH"]
+  }
+
+}
+
